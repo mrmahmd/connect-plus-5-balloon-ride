@@ -39,6 +39,8 @@ Semantic controls, visible focus, reduced-motion support, larger text, projector
 
 The lesson timer can start/pause via its display; resets are separate. The Teacher desk includes the full plan, answer key and printable notes, including all six story scenes.
 
+Teacher desk asks for the teacher password on every opening. It uses a browser-side classroom lock; the static repository and source content remain public. Closing the desk locks it again, and teacher notes are excluded from printing while locked.
+
 ## Files
 
 `index.html`: semantic page shell. `style.css`: responsive styling. `app.js`: lesson content, SVG illustration, interactions and local persistence.
